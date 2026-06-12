@@ -32,16 +32,12 @@ chatapp/
 │   │   │   └── ChatAppApplication.java
 │   │   └── resources/     # Configuration files
 │   └── pom.xml
-│
-└── database/
-    └── schema.sql         # Database schema
 ```
 
 ## Features
 
 - **Real-time Chat** - WebSocket support via STOMP protocol
 - **Firebase Auth** - Email/Google authentication
-- **SMS Integration** - Send SMS via MSG91 API
 - **User Management** - Online/offline status
 - **Message History** - Store and retrieve conversations
 - **Responsive UI** - Tailwind CSS styling
@@ -61,7 +57,7 @@ chatapp/
 - Spring Security
 - Spring WebSocket
 - Firebase Admin SDK
-- MySQL
+- cloud Firestore 
 - JPA/Hibernate
 
 ## Getting Started
@@ -125,10 +121,9 @@ sms.api.key=your_msg91_api_key
 ## Next Steps
 
 1. Set up Firebase project and get credentials
-2. Set up MySQL database
-3. Configure environment variables
-4. Implement controller methods
-5. Implement service layer logic
-6. Create React components UI
-7. Test WebSocket connections
-8. Deploy to production
+2. Configure environment variables
+3. Implement controller methods
+4. Implement service layer logic
+5. Create React components UI
+6. Test WebSocket connections
+7. Deploy to production
