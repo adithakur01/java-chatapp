@@ -1,0 +1,14 @@
+com\chatapp\config\FirebaseConfig.class
+com\chatapp\controller\AuthController.class
+com\chatapp\ChatAppApplication.class
+com\chatapp\config\SecurityConfig.class
+com\chatapp\config\WebSocketConfig.class
+com\chatapp\model\Message.class
+com\chatapp\controller\ChatController.class
+com\chatapp\filter\FirebaseAuthFilter.class
+com\chatapp\repository\UserRepository.class
+com\chatapp\service\ChatService.class
+com\chatapp\controller\WebSocketController.class
+com\chatapp\model\User.class
+com\chatapp\service\AuthService.class
+com\chatapp\config\CorsConfig.class
